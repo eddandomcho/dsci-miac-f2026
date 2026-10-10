@@ -22,5 +22,7 @@ if __name__ == "__main__":
         "files/CONV_30ITMSample25.json"
     ]
     
-    for i in range(len(input_file_paths)):
-        transform_csv_to_json(input_file_paths[i], output_file_paths[i])
+    # for i in range(len(input_file_paths)):
+    #     transform_csv_to_json(input_file_paths[i], output_file_paths[i])
+
+    transform_csv_to_json("data/FHA_PPSample25.csv", "data/l0_federal_data.json")
